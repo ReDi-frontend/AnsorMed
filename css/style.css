@@ -86,7 +86,7 @@ body{
   opacity: 0.6;
 }
 
-.site-header_btn{
+.main-btn{
   display: inline-block;
   font-size: 15px;
   letter-spacing: 2px;
@@ -98,12 +98,12 @@ body{
   text-transform: uppercase;
   background-color: #de2e54;
 }
-.site-header_btn:hover{
+.main-btn:hover{
   background-color: #fff;
   color: #de2e54;
   border-color: #de2e54;
 }
-.site-header_btn:active{
+.main-btn:active{
   opacity: 0.6;
   background-color: #de2e54;
   color: #fff;
@@ -111,6 +111,47 @@ body{
 /* //SITE NAV */
 /* //SITE HEADER */
 
+/* MAIN CONTENT */
+/* SECTION HERO */
+.section_hero{
+  background-color: #0EB4C1;
+  color: #fff;
+}
+.hero_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-content{
+  width: 500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.hero-heading{
+  margin-top: 0;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  font-size: 36px;
+}
+.hero-text{
+  width: 440px;
+  margin-top: 0;
+  margin-bottom: 36px;
+}
+.hero-btn:hover{
+  background-color: rgba(222, 46, 84, 0.8);
+  color: #fff;
+  border-color: transparent;
+}
+.hero-btn:active{
+  background-color: rgba(222, 46, 84, 0.6);
+  opacity: 1;
+}
+.hero-img{
+  align-self: flex-end;
+}
+/* //SECTION HERO */
+/* //MAIN CONTENT */
 
 /*  SITE FOOTER */
 .footer{
