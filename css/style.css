@@ -2,6 +2,9 @@
 *{
     box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   padding: 0;
   margin: 0;
@@ -97,6 +100,16 @@ body{
   color: #fff;
   text-transform: uppercase;
   background-color: #de2e54;
+}
+#main-btn_outline{
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+#main-btn_outline:hover{
+  background-color: #de2e54;
+  color: #fff;
+  border-color: transparent;
 }
 .main-btn:hover{
   background-color: #fff;
@@ -208,6 +221,33 @@ body{
   justify-content: center;
 }
 /* //SECTION SERVICES */
+
+
+/* SECTION CTA */
+.cta{
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #0EB4C1;
+  color: #fff;
+}
+.cta-heading{
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.cta-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-links_item:not(:last-child){
+  margin-right: 40px;
+}
+/* //SECTION CTA */
 /* //MAIN CONTENT */
 
 /*  SITE FOOTER */
