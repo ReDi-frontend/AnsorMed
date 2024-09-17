@@ -151,6 +151,63 @@ body{
   align-self: flex-end;
 }
 /* //SECTION HERO */
+
+
+/* SECTION SERVICES */
+.services{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.services-heading{
+  margin-top: 0;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #000;
+  margin-bottom: 56px;
+}
+
+.services-list{
+  width: 864px;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  list-style: none;
+}
+.services-item:not(:last-child){
+  margin-right: 80px;
+}
+.index-service{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.index-service img{
+  width: 200px;
+  height: 200px;
+  margin-right: 64px;
+  object-fit: cover;
+}
+
+.index-service_content{
+  width: 600px;
+}
+.index-service_title{
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #222;
+}
+.index-service_information{
+  margin: 0;
+}
+
+.index-services_actions{
+  display: flex;
+  justify-content: center;
+}
+/* //SECTION SERVICES */
 /* //MAIN CONTENT */
 
 /*  SITE FOOTER */
